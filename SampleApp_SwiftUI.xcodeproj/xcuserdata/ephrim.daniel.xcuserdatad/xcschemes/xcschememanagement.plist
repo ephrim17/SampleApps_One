@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SampleAppWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SampleApp_SwiftUI.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SampleApp_SwiftUI_watch Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SampleApp_SwiftUI_watchExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SampleApp_SwiftUI_watch_widgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>050328002D48DFA100EF32B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0534AF732E01382E003D6E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>054F5C582E18E6C400E866A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>054F5C642E18E6C700E866A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>054F5C6E2E18E6C700E866A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
