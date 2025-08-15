@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:../SampleAppSwiftFM/SampleAppSwiftFM.xcodeproj">
+      location = "group:SampleAppSwiftFM.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SampleApp_SwiftUI.xcodeproj">

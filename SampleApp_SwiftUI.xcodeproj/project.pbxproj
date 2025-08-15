@@ -115,6 +115,7 @@
 		054F5CB12E18F36000E866A3 /* SampleApp_SwiftUI_watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SampleApp_SwiftUI_watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054F5D622E1B8C6C00E866A3 /* SampleApp_SwiftUI_watch_widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SampleApp_SwiftUI_watch_widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		054F5D7D2E1B9C1D00E866A3 /* SampleApp_SwiftUI_watch_widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp_SwiftUI_watch_widgetExtension.entitlements; sourceTree = "<group>"; };
+		B00A74962E4F201C00F354B0 /* SampleAppSwiftFM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SampleAppSwiftFM.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -292,6 +293,7 @@
 		050327F82D48DFA100EF32B3 = {
 			isa = PBXGroup;
 			children = (
+				B00A74962E4F201C00F354B0 /* SampleAppSwiftFM.xcodeproj */,
 				054F5D7D2E1B9C1D00E866A3 /* SampleApp_SwiftUI_watch_widgetExtension.entitlements */,
 				054F5CEC2E1B860600E866A3 /* SampleApp_SwiftUI_watch Watch App */,
 				0534B1C62E069FA7003D6E91 /* SampleAppWidgetExtension.entitlements */,
@@ -324,6 +326,13 @@
 				0534AF782E01382E003D6E91 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00A74972E4F201C00F354B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -506,11 +515,16 @@
 			mainGroup = 050327F82D48DFA100EF32B3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				05CA5B602E3912CB0095B504 /* XCLocalSwiftPackageReference "../../../../Downloads/MyPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 050328022D48DFA100EF32B3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B00A74972E4F201C00F354B0 /* Products */;
+					ProjectRef = B00A74962E4F201C00F354B0 /* SampleAppSwiftFM.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				050328002D48DFA100EF32B3 /* SampleApp_SwiftUI */,
@@ -1156,13 +1170,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		05CA5B602E3912CB0095B504 /* XCLocalSwiftPackageReference "../../../../Downloads/MyPackage" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../../../Downloads/MyPackage;
-		};
-/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = 050327F92D48DFA100EF32B3 /* Project object */;
 }

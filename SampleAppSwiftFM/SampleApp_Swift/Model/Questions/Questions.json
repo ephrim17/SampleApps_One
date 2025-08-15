@@ -1,0 +1,32 @@
+[
+   {
+      "question":"How much % of income do you invest in EPF, PPF, VPF ?",
+      "fieldType" : "text",
+      "id":"1"
+   },
+   {
+      "question":"Your montly expenditure is () & of my income ?",
+      "fieldType" : "text",
+      "id":"2"
+   },
+   {
+      "question":"Have you invested in tax saving schemes ?",
+      "fieldType" : "switch",
+      "id":"3"
+   },
+   {
+      "question":"Do you have an own medical or Term insurance ?",
+      "fieldType" : "switch",
+      "id":"4"
+   },
+   {
+      "question":"Savings you want to plan for post retirement ?",
+      "fieldType" : "text",
+      "id":"5"
+   },
+   {
+      "question":"Savings you want to plan for future ?",
+      "fieldType" : "text",
+      "id":"6"
+   }
+]
