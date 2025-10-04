@@ -67,15 +67,27 @@ class CollapsibleTableTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         if indexPath.row == 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             cell.textLabel?.text = sections[indexPath.section].title
+            return cell
+        } else {
+            cell.textLabel?.text = sections[indexPath.section].options[indexPath.row - 1]
             return cell
         }
 
         return UITableViewCell()
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.row == 0 {
+            sections[indexPath.section].isOpened.toggle()
+            tableView.reloadSections([indexPath.section], with: .automatic)
+        } else {
+            print("SubCell Tapped : \(sections[indexPath.section].options[indexPath.row - 1])")
+        }
+        
     }
     
 
