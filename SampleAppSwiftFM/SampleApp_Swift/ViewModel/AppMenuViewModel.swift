@@ -42,7 +42,8 @@ class AppMenuViewModel {
 			Menu(pageName: "Share View", viewController: ShareViewController()),
 			Menu(pageName: "Scroll View Container", viewController: ScrollViewContainerController()),
             Menu(pageName: "CLLocation Button", viewController: LocationButtonViewController()),
-            Menu(pageName: "Footer View", viewController: FooterViewController())
+            Menu(pageName: "Footer View", viewController: FooterViewController()),
+            Menu(pageName: "Collapsible Table Views", viewController: CollapsibleTableTableViewController())
 		]
 		self.menus = menus
 	}

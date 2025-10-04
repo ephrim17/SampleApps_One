@@ -63,6 +63,7 @@
 		B00A760F2E4F208B00F354B0 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00A75B22E4F208B00F354B0 /* DatePickerViewController.swift */; };
 		B00A76102E4F208B00F354B0 /* AppMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00A75C52E4F208B00F354B0 /* AppMenuView.swift */; };
 		B00A76112E4F208B00F354B0 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00A75CA2E4F208B00F354B0 /* FooterView.swift */; };
+		B0629F532E91183F003642CC /* CollapsibleTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0629F522E91183F003642CC /* CollapsibleTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,7 @@
 		B00A75D52E4F208B00F354B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B00A75D62E4F208B00F354B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B00A75D82E4F208B00F354B0 /* SampleAppSwiftFM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppSwiftFM.swift; sourceTree = "<group>"; };
+		B0629F522E91183F003642CC /* CollapsibleTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 				B00A75BB2E4F208B00F354B0 /* SizeClassViewController.swift */,
 				B00A75BC2E4F208B00F354B0 /* ToastViewController.swift */,
 				B00A75BD2E4F208B00F354B0 /* WebViewController.swift */,
+				B0629F522E91183F003642CC /* CollapsibleTableTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				B00A75E52E4F208B00F354B0 /* ShareViewController.swift in Sources */,
 				B00A75E62E4F208B00F354B0 /* Extension_TabBarViewController.swift in Sources */,
 				B00A75E72E4F208B00F354B0 /* CalendarViewController.swift in Sources */,
+				B0629F532E91183F003642CC /* CollapsibleTableTableViewController.swift in Sources */,
 				B00A75E82E4F208B00F354B0 /* extensionTextAlignment.swift in Sources */,
 				B00A75E92E4F208B00F354B0 /* AnswersModel.swift in Sources */,
 				B00A75EA2E4F208B00F354B0 /* LocationButtonView.swift in Sources */,
