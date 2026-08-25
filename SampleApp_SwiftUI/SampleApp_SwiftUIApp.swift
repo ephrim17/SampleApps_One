@@ -22,7 +22,6 @@ struct SampleApp_SwiftUIApp: App {
         WindowGroup {
             Group {
                 appCoordinator.startWithSwiftUI
-                    .ignoresSafeArea()
                     .environmentObject(router)
                     .environmentObject(viewModel)
             }

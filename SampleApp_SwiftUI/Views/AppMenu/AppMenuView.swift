@@ -26,12 +26,13 @@ struct AppMenuView: View {
                         }
                     }
                 }
+                .navigationTitle("Sample App Swift UI")
+                .navigationBarTitleDisplayMode(.inline)
                 .navigationDestination(for: AppMenuModel.self) { menu in
                     if let pageID = menu.id {
                         AppMenuViewHandler(menuID: pageID)
                     }
                 }
-                .navigationTitle("Sample App Swift UI")
             }
         }
     }

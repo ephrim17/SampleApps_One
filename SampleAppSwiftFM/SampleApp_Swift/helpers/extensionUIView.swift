@@ -13,8 +13,8 @@ extension UIView {
 		parentView.addSubview(view)
 		parentView.backgroundColor = .systemBackground
 		NSLayoutConstraint.activate([
-			view.topAnchor.constraint(equalTo: parentView.safeAreaLayoutGuide.topAnchor),
-			view.bottomAnchor.constraint(equalTo: parentView.safeAreaLayoutGuide.bottomAnchor),
+			view.topAnchor.constraint(equalTo: parentView.topAnchor),
+			view.bottomAnchor.constraint(equalTo: parentView.bottomAnchor),
 			view.trailingAnchor.constraint(equalTo: parentView.safeAreaLayoutGuide.trailingAnchor),
 			view.leadingAnchor.constraint(equalTo: parentView.safeAreaLayoutGuide.leadingAnchor)
 		])
